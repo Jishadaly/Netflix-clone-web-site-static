@@ -1,0 +1,416 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: black;
+  
+}
+
+
+p{
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+  
+}
+
+
+h1{
+  
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+  font-size :48px;
+  font-weight:900;
+  color: white;
+}
+
+
+.first-page
+{
+ 
+  max-height: 700px;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/images/img.netflix\,bgnd.jpg);
+  
+}
+
+
+.header{
+display: flex;
+padding: 11px 189px;
+padding-top: 25px;
+}
+
+
+.netflix-png{
+  width: 165px;
+  margin-right: 721px;
+}
+
+
+.language-button,.signin-button{
+
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+  font-size: 26px;
+  border: none;
+  background-color:#e50914;
+  color: #fff;
+  padding: 7px 20px;
+  font-size: 15px;
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+  height: 34px;
+  width: 119px;
+}
+
+
+  .signin-button{
+
+   font-size:14px;
+   font-weight: 600;
+   transition: 1s;
+   width: 88px;
+   height:35px;
+ 
+  }
+
+  .signin-button:hover{
+    /* background-color: #b10000; */
+     
+    
+  }
+  .signin-button:active{
+    background-color: #5f0000;
+   
+  }
+
+
+.language-button{
+  
+  align-items: center;
+  background: transparent;
+  border:1px solid white ;
+  padding: 7px 10px;
+  width: 100px;
+  font-weight: 400;
+  
+}
+
+
+.language-button img{
+   width: 10px;
+   margin-left: 10px ;
+}
+
+
+
+.first-interface{
+  display: flex;
+ flex-direction: column;
+ width: 67%;
+ height: 400px;
+ margin-left: 219px;
+ margin-top: 214px;
+ margin-right: 200px;
+ align-items: center;
+ 
+
+
+}
+
+
+.title-text{
+  margin-top: 0;
+  display: block;
+  margin-bottom: 17px;
+}
+
+
+.first-line{
+  color: white;
+  display: block;
+  font-size: 24px;
+  font-weight: 400px;
+  margin-top: 0;
+  
+  
+
+}
+
+
+.second-line{
+  color: white;
+  display: block;
+  font-size: 20px;
+  font-weight: 400px;
+  margin-top: 0;
+  
+}
+
+
+.email-section{
+  display: flex;
+  width: 100%;
+  height: 58px;
+  justify-content: center;
+}
+
+
+.email-input{
+width: 400px;
+height: 95%;
+border: solid rgb(100 100 100) 0.15px;
+border-radius: 5px;
+padding-left: 15px;
+font-size: 16px;
+background-color: rgba(0, 0, 0, 0.372);
+color: #655f5f;
+
+}
+
+
+.email-input:focus{
+
+  color: rgb(255, 255, 255);
+}
+
+
+.get-started-button{
+font-weight: 700;
+font-size: 24px;
+width: 170px;
+height: 100%;
+margin-left: 8px;
+border-radius: 5px;
+border: none;
+outline: 0;
+background-color: #e50914;
+color: #fff;
+cursor: pointer;
+font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+transition: 0.80s 0s;
+}
+
+
+.get-started-button:hover{
+background-color:#b10000;
+}
+.get-started-button:active{
+background-color:#5f0000;
+}
+
+
+
+.space-block{
+width: 100;
+background-color:#2d2d2d;
+height: 13px;
+}
+
+.section-one{
+display: flex;
+width:100%;
+height: 582px;
+padding-top: 35px;
+padding-bottom: 35px;
+justify-items: center;
+align-items: center;
+
+
+}
+.image-side{
+display: flex;
+align-items: center ;
+margin-right: 10%;
+width: 40%;
+height: 100%;
+
+
+}
+.text-side{
+display: flex;
+justify-content: center;
+flex-direction: column;
+ width: 40%;
+ height: 100%;
+ /* background-color: #c54646; */
+ margin-left: 10%;
+ 
+}
+.section-images{
+width: 100%;
+}
+
+.section-title-text{
+
+   margin-top: 0;
+  display: block;
+  margin-bottom: 0  ;
+}
+.section-sub-text{
+display: block;
+font-size: 24px;
+font-weight: 400;
+margin-top: 16px;
+color: #fff;
+}
+
+.section-two{
+display: flex;
+width:100%;
+height: 582px;
+padding-top: 35px;
+padding-bottom: 35px;
+justify-items: center;
+align-items: center;
+
+}
+.image-side-section-two{
+
+display: flex;
+align-items: center ;
+margin-left: 10%;
+width: 40%;
+height: 100%;
+}
+.text-side-section-two{
+
+display: flex;
+justify-content: center;
+flex-direction: column;
+margin-right: 10%;
+
+}
+.Faq-section{
+display: flex;
+width:100%;
+height:max-content;
+padding-top: 50px;
+padding-bottom: 35px;
+margin-top: 0;
+flex-direction: column;
+align-items: center;
+
+
+}
+.faq-title{
+font-size: 42px;
+font-weight: 900;
+margin-bottom: 5px;
+
+}
+.faq-ul{
+
+flex-direction: column;
+width: 80%;
+padding-bottom: 25px;
+}
+.faq-li-items{
+position: relative;
+width: 92%;
+height:55px ;
+font-size: 24px;
+font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+font-weight:400;
+list-style-type: none;
+align-self: center;
+margin-bottom: 11px;
+color: #fff;
+background-color: #2d2d2d;
+/* padding-left: 27px; */
+padding: 25px 0px 6px 28px;
+transition: 0.20s;
+cursor: pointer;
+
+}
+
+.faq-li-items:hover{
+  background-color: #635d5d;
+}
+.faq-plus-img{
+position: absolute;
+right: 29px;
+width: 37px;
+}
+
+
+.footer{
+margin-left: 10%;
+/* display: flex;
+flex-direction: column; */
+width: 100px ;
+height: 400px;
+}
+
+
+
+.call-id{
+color: #cfcfcf;
+width: 300px;
+display: block;
+margin-top: 50px;
+margin-bottom: 0;
+
+}
+.footer-links-div{
+
+display: flex;
+
+}
+
+.footer-ul{
+
+width: 400px;
+padding-left: 0;
+display: inline-block;
+
+}
+.footer-faq-single-link{
+
+font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+color: white;
+text-decoration: none;
+list-style-type: none;
+padding-top: 13px;
+text-decoration: underline;
+color: rgb(172, 172, 172);
+width: 400px;
+font-size: 14px;
+font-weight: 400;
+
+
+}
+
+.language-button-footer{
+
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+  align-items: center;
+  background: transparent;
+  border:1px solid white ;
+  padding: 7px 10px;
+  width: 100px;
+  font-weight: 600;
+  height: 35px;
+  color: #fff;
+  cursor: pointer;
+  height: 35px;
+  width: 119px;
+  border-radius: 4px;
+  margin-top: 30px;
+  cursor: pointer;
+  
+}
+
+
+.language-button-footer img{
+   width: 10px;
+   margin-left: 10px ;
+
+}
+
+.footer-netflix-tag{
+
+font-size: 0.875rem;
+color: #655f5f;
+font-size: 14px;
+font-weight: 500;
+margin-top: 30px;
+}
